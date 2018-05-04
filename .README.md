@@ -30,9 +30,9 @@ logger.warn('warn me of this %s', 'stuff');
 logger.error('We found this %s', 'error');
 logger.debug('Only show found this %s', 'debug'); // --debug args needed
 logger.data({x: true, other: false, zother: 'yes'})
+```
 
 ![screenshot](screenshot.png)
-```
 
 ## Install
 
