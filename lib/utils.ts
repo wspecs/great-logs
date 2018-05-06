@@ -85,11 +85,3 @@ export function debug(...args: Array<string|number>) {
     write(args, PRINT_COLOR, DEBUG('DEBUG: '));
   }
 };
-
-
-print('this is what you should print: %s', 1);
-info('great info to %s', 'know');
-warn('warn me of this %s', 'stuff');
-error('We found this %s', 'error');
-debug('Only show found this %s', 'debug');
-data({x: true, other: false, zother: 'yes'})

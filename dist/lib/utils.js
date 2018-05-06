@@ -61,7 +61,7 @@ function info() {
     for (var _i = 0; _i < arguments.length; _i++) {
         args[_i] = arguments[_i];
     }
-    write(args, INFO, INFO('INFO: '));
+    write(args, PRINT_COLOR, INFO('INFO: '));
 }
 exports.info = info;
 ;
