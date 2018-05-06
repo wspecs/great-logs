@@ -54,7 +54,7 @@ export function print(...args: Array<string|number>) {
  * @return {void}
  */
 export function info(...args: Array<string|number>) {
-  write(args, INFO, INFO('INFO: '));
+  write(args, PRINT_COLOR, INFO('INFO: '));
 };
 
 
